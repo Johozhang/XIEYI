@@ -15,7 +15,6 @@
 	box-sizing:border-box;
 	border-right:20px solid #e1e1e1;
 	transition:border-color,width 0.5s;
-	
 }
 #main li:hover .left-part {
 	border-color:#cfdb00;
