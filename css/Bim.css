@@ -1,0 +1,81 @@
+
+.bim_h3 {
+	background-color: #CEDB25;
+	font-size: 1.4rem;
+	padding: 3px 4%;
+	width: 150px;
+	
+}
+
+.content_tab {
+	width: 75%;
+	margin: 0 auto;
+	position: relative;
+}
+.content_tab>div{
+	padding: 10% 0;
+}
+
+#part1 {
+	background: url(../img/bim/redta.png)no-repeat ;
+	background-position: right bottom;
+	background-size: 40% 80%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.bim_img {
+	max-width: 260px;
+}
+.part_a{
+	height: 50%;
+	padding: 8%;
+}
+
+.part_b{
+	
+	height: 50%;
+	padding: 8%;
+	background-color: rgba(192,192,192,0.5);
+}
+
+.part_c{
+	padding: 8%;
+}
+
+.part_c * {
+	text-align: right;
+	margin: 0 0 0 auto;
+}
+
+.part_d{
+	padding: 8%;
+	background-color: rgba(192,192,192,0.5);
+}
+
+.part_d * {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.part_e{
+	padding: 8%;
+}
+
+#part2 {
+	background: url(../img/bim/redta.png) left top no-repeat,
+						url("../img/bim/redta.png") right bottom no-repeat;
+	background-size: 50% 60%;
+	width: 100%;
+}
+
+h2.title {
+	position: relative;
+	width:200px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	margin:10% auto;
+	color:#616161;
+	font-size: 2.4rem;
+}

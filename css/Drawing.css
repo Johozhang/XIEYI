@@ -1,0 +1,56 @@
+#content{
+	width: 100%;
+	margin: 10% auto;
+}
+.drawing_title {
+	position: relative;
+	width:240px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	margin:0 auto;
+	color:#616161;
+	font-size: 2.4rem;
+}
+
+.drawing_title:before,.drawing_title:after {
+	content: "";
+	width:20%;
+	height: 2px;
+	background-color: #cfdb00;
+	position: absolute;
+	top:19px;
+}
+.drawing_title:before {
+	right:104%;
+}
+.drawing_title:after {
+	left:104%;
+}
+
+.swiper-container {
+		width:80%;
+		height: 30%;
+}
+
+.pagination {
+		  position: absolute;
+		  left: 0;
+		  text-align: center;
+		  bottom:5px;
+		  width: 80%;
+}
+.swiper-pagination-switch {
+		  display: inline-block;
+		  width: 10px;
+		  height: 10px;
+		  border-radius: 10px;
+		  background: #999;
+		  box-shadow: 0px 1px 2px #555 inset;
+		  margin: 0 3px;
+		  cursor: pointer;
+}
+.swiper-active-switch {
+		  background: #fff;
+}
+
